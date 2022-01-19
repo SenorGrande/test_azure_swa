@@ -11,7 +11,7 @@
       ]
     },
     "allowedForwardedHosts": [
-      "https://cdawg-test.z01.azurefd.net"
+      "cdawg-test.z01.azurefd.net"
     ]
   },
   "route": "/members",
