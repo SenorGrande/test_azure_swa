@@ -13,6 +13,5 @@
     "allowedForwardedHosts": [
       "https://cdawg-test.azurefd.net"
     ]
-  },
-  "routes": []
+  }
 }
