@@ -14,9 +14,13 @@
       "cdawg-test.z01.azurefd.net"
     ]
   },
-  "route": "/members",
-  "allowedRoles": ["authenticated, members"],
-  "headers": {
-      "Cache-Control": "no-store"
-  }
+  "routes": [
+    {
+      "route": "/members",
+      "allowedRoles": ["authenticated, members"],
+      "headers": {
+          "Cache-Control": "no-store"
+      }
+    }
+  ]
 }
