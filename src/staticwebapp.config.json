@@ -1,18 +1,16 @@
 {
-  "routes": [],
-  "networking": {
-    "allowedIpRanges": [
-      "AzureFrontDoor.Backend"
-    ]
-  },
-  "forwardingGateway": {
-    "requiredHeaders": {
-      "X-Azure-FDID": [
-        "9977a1b9-ae56-4d21-8c44-b1079f24c8aa"
-      ]
+    "routes": [],
+    "networking": {
+        "allowedIpRanges": [
+            "AzureFrontDoor.Backend"
+        ]
     },
-    "allowedForwardedHosts": [
-      "cdawg-test.azurefd.net"
-    ]
-  }
+    "forwardingGateway": {
+        "requiredHeaders": {
+            "X-Azure-FDID": "9977a1b9-ae56-4d21-8c44-b1079f24c8aa"
+        },
+        "allowedForwardedHosts": [
+            "cdawg-test.azurefd.net"
+        ]
+    }
 }
