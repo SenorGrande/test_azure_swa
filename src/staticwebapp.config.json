@@ -7,11 +7,11 @@
   "forwardingGateway": {
     "requiredHeaders": {
       "X-Azure-FDID": [
-        "e367e160-40f7-4ffd-9ea7-cae32bb5c331"
+        "9977a1b9-ae56-4d21-8c44-b1079f24c8aa"
       ]
     },
     "allowedForwardedHosts": [
-      "https://cdawg-test.azurefd.net"
+      "https://cdawg-test.z01.azurefd.net"
     ]
   },
   "route": "/members",
