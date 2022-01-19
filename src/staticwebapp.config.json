@@ -11,7 +11,7 @@
       ]
     },
     "allowedForwardedHosts": [
-      "cdawg-test.z01.azurefd.net"
+      "cdawg-test.azurefd.net"
     ]
   },
   "routes": [
